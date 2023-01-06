@@ -42,29 +42,34 @@ Solidity smart contract designed to transfer ETHER between 2 accounts under the 
 
 ---
 <!--Demo -->
-### Ganache - Note initial balances
+### Ganache - Note initial balances (on test account v.1.1)
 ![ganache](images/ganache.png)
-### Contract set up - before deployment
+### Contract set up - before deployment (on test account v.1.1)
 ![contract1](images/contract1.png)
-### Solidity - Transaction Record after deployment
+### Solidity - Transaction Record after deployment (on test account v.1.1)
 ![deploy](images/deploy.png)
-### Ganache Transaction Record
-![deployed](images/deployed.png)
-### Solidity: Contract account set up
+### Solidity: Contract account set up (on test account v.1.1)
 ![before_transact](images/before_transact.png)
-### Ganache Transaction Record after set up
+
+### UPDATED CODE - V.2.1 (Jan 5th 2023)
+### Ganache Contract Deployed and Transaction Records
+### V.2.1
 ![deployed](images/deployed.png)
-### Validated Record (See Validated Transaction Hash)
-![transacted](images/transacted.png)
-### Ganache: Transfered Funds - Acc# 1 Deducted
-![transfered](images/transfered.png)
-### Solidity: Verified Transaction
-![verify](images/verify.png)
+### Solidy: Transaction Hash - Confirm Transfer of 1 ETHER
+### V.2.1
+![transfered](images/transaction_verified.png)
+### Ganache: Transfered Funds (1 Ether) - Acc 2 to Acc 1
+### V.2.1
+![verify](images/fund_transfer_verified.png)
 ---
 <!--Version Release -->
 ## Version Release
 
-### Version 1.2
+### Version 2.1
+-   Updated Solidity Code - README.md - Tested Balances
+-   Tested 1/5/23
+
+### Version 1.2 DEPRECATED
 -   Updated code, fixed error message with web-3
 -   Tested 12/31/22
 
